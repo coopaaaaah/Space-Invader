@@ -4,7 +4,7 @@ public class EnemyMovement : MonoBehaviour
 {
     
     public Transform[] waypoints;
-    private readonly float _moveSpeed = 5;
+    private readonly float _moveSpeed = 2;
     private int _currentWaypoint = 0;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
