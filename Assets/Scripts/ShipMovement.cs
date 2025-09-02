@@ -29,7 +29,7 @@ public class Ship : MonoBehaviour
 
         if (_fireAction.WasPerformedThisFrame())
         {
-            _logicManager.FireBullet(ship.position);
+            _logicManager.FireBullet(ship.position + Vector2.up);
         }
     }
 

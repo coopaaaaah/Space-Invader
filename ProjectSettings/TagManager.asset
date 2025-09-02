@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - LogicManager
+  - Enemy Path
+  - Path
   layers:
   - Default
   - TransparentFX
